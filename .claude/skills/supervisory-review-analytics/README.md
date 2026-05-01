@@ -1,8 +1,7 @@
 # Supervisory Review Analytics Skill
-
+Youtube Video Link: https://youtu.be/xoTHuxHMOcQ
 A reusable skill for Claude Code / VS Code Copilot that turns multi-sheet supervisory review Excel files into monthly and quarterly report analytics.
 
-**Video walkthrough:** [link will go here after recording]
 
 ## Why this skill
 
