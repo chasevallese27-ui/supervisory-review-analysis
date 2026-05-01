@@ -1,0 +1,36 @@
+{
+  "_comment": "Per-sheet schema. Each sheet declares its column roles (id, work_date, analyst, reviewer, review_date) plus the list of review parameter columns. Parameter values are normalized: 'Errors' and 'Error' both count as errors; 'No Errors' and 'No Error' both count as clean. This handles the singular/plural difference across sheets.",
+  "parameter_values": {
+    "error": ["Error", "Errors"],
+    "no_error": ["No Error", "No Errors"]
+  },
+  "sheets": {
+    "Alerts": {
+      "id_column": "Alert ID",
+      "work_date_column": "Date of Alert",
+      "analyst_column": "Analyst",
+      "reviewer_column": "1st Level Reviewer",
+      "review_date_column": "1st Level Review Date",
+      "review_parameters": ["Review Info", "Review Status", "Review Notes"],
+      "extras": {
+        "risk_level_column": "Risk Level"
+      }
+    },
+    "Agreements": {
+      "id_column": "Firm",
+      "work_date_column": "Date",
+      "analyst_column": "Analyst",
+      "reviewer_column": "1st Level Reviewer",
+      "review_date_column": "1st Level Review Date",
+      "review_parameters": ["Information Check", "Documentation Saved"]
+    },
+    "Phone Calls": {
+      "id_column": "Call ID",
+      "work_date_column": "Date",
+      "analyst_column": "Analyst",
+      "reviewer_column": "1st Level Reviewer",
+      "review_date_column": "1st Level Review Date",
+      "review_parameters": ["Completeness of Entry", "Matter Resolved", "Matter Closed"]
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-03-31"
+  },
+  "sheets_processed": [
+    "Agreements",
+    "Alerts",
+    "Phone Calls"
+  ],
+  "results_by_sheet": {
+    "Agreements": {
+      "parameters": [
+        "Information Check",
+        "Documentation Saved"
+      ],
+      "overall": {
+        "total_cases": 80,
+        "total_parameter_evaluations": 160,
+        "total_errors": 18,
+        "overall_error_rate": 0.1125
+      },
+      "by_analyst": [
+        {
+          "Analyst": "LP",
+          "Cases Reviewed": 16,
+          "Parameters Evaluated": 32,
+          "Errors": 5,
+          "Error Rate": 0.1562,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "MT",
+          "Cases Reviewed": 16,
+          "Parameters Evaluated": 32,
+          "Errors": 4,
+          "Error Rate": 0.125,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "KA",
+          "Cases Reviewed": 16,
+          "Parameters Evaluated": 32,
+          "Errors": 4,
+          "Error Rate": 0.125,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "JH",
+          "Cases Reviewed": 16,
+          "Parameters Evaluated": 32,
+          "Errors": 3,
+          "Error Rate": 0.0938,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "BS",
+          "Cases Reviewed": 16,
+          "Parameters Evaluated": 32,
+          "Errors": 2,
+          "Error Rate": 0.0625,
+          "Sample Size OK": true
+        }
+      ],
+      "by_parameter": [
+        {
+          "Parameter": "Documentation Saved",
+          "Evaluations": 80,
+          "Errors": 13,
+          "Error Rate": 0.1625
+        },
+        {
+          "Parameter": "Information Check",
+          "Evaluations": 80,
+          "Errors": 5,
+          "Error Rate": 0.0625
+        }
+      ],
+      "analyst_parameter_matrix": [
+        {
+          "Analyst": "BS",
+          "Information Check": 0.0,
+          "Documentation Saved": 0.125
+        },
+        {
+          "Analyst": "JH",
+          "Information Check": 0.0,
+          "Documentation Saved": 0.1875
+        },
+        {
+          "Analyst": "KA",
+          "Information Check": 0.0,
+          "Documentation Saved": 0.25
+        },
+        {
+          "Analyst": "LP",
+          "Information Check": 0.125,
+          "Documentation Saved": 0.1875
+        },
+        {
+          "Analyst": "MT",
+          "Information Check": 0.1875,
+          "Documentation Saved": 0.0625
+        }
+      ],
+      "reviewer_coverage": [
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "BS",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "JH",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "KA",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "LP",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "MT",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "BS",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "JH",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "KA",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "LP",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "MT",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "BS",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "JH",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "KA",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "LP",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "MT",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "BS",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "JH",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "KA",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "LP",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "MT",
+          "Reviews": 4
+        }
+      ]
+    },
+    "Alerts": {
+      "parameters": [
+        "Review Info",
+        "Review Status",
+        "Review Notes"
+      ],
+      "overall": {
+        "total_cases": 100,
+        "total_parameter_evaluations": 300,
+        "total_errors": 28,
+        "overall_error_rate": 0.0933
+      },
+      "by_analyst": [
+        {
+          "Analyst": "KA",
+          "Cases Reviewed": 20,
+          "Parameters Evaluated": 60,
+          "Errors": 8,
+          "Error Rate": 0.1333,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "BS",
+          "Cases Reviewed": 20,
+          "Parameters Evaluated": 60,
+          "Errors": 6,
+          "Error Rate": 0.1,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "JH",
+          "Cases Reviewed": 20,
+          "Parameters Evaluated": 60,
+          "Errors": 5,
+          "Error Rate": 0.0833,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "MT",
+          "Cases Reviewed": 20,
+          "Parameters Evaluated": 60,
+          "Errors": 5,
+          "Error Rate": 0.0833,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "LP",
+          "Cases Reviewed": 20,
+          "Parameters Evaluated": 60,
+          "Errors": 4,
+          "Error Rate": 0.0667,
+          "Sample Size OK": true
+        }
+      ],
+      "by_parameter": [
+        {
+          "Parameter": "Review Info",
+          "Evaluations": 100,
+          "Errors": 17,
+          "Error Rate": 0.17
+        },
+        {
+          "Parameter": "Review Notes",
+          "Evaluations": 100,
+          "Errors": 11,
+          "Error Rate": 0.11
+        },
+        {
+          "Parameter": "Review Status",
+          "Evaluations": 100,
+          "Errors": 0,
+          "Error Rate": 0.0
+        }
+      ],
+      "analyst_parameter_matrix": [
+        {
+          "Analyst": "BS",
+          "Review Info": 0.15,
+          "Review Status": 0.0,
+          "Review Notes": 0.15
+        },
+        {
+          "Analyst": "JH",
+          "Review Info": 0.15,
+          "Review Status": 0.0,
+          "Review Notes": 0.1
+        },
+        {
+          "Analyst": "KA",
+          "Review Info": 0.3,
+          "Review Status": 0.0,
+          "Review Notes": 0.1
+        },
+        {
+          "Analyst": "LP",
+          "Review Info": 0.1,
+          "Review Status": 0.0,
+          "Review Notes": 0.1
+        },
+        {
+          "Analyst": "MT",
+          "Review Info": 0.15,
+          "Review Status": 0.0,
+          "Review Notes": 0.1
+        }
+      ],
+      "reviewer_coverage": [
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "BS",
+          "Reviews": 6
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "JH",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "LP",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "MT",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "KA",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "JH",
+          "Reviews": 6
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "BS",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "KA",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "MT",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "LP",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "KA",
+          "Reviews": 6
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "JH",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "LP",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "MT",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "BS",
+          "Reviews": 4
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "LP",
+          "Reviews": 6
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "BS",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "KA",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "MT",
+          "Reviews": 5
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "JH",
+          "Reviews": 4
+        }
+      ],
+      "risk_level_breakdown": [
+        {
+          "Risk Level": 1,
+          "Cases": 24,
+          "Evaluations": 72,
+          "Errors": 10,
+          "Error Rate": 0.1389
+        },
+        {
+          "Risk Level": 2,
+          "Cases": 31,
+          "Evaluations": 93,
+          "Errors": 9,
+          "Error Rate": 0.0968
+        },
+        {
+          "Risk Level": 3,
+          "Cases": 45,
+          "Evaluations": 135,
+          "Errors": 9,
+          "Error Rate": 0.0667
+        }
+      ]
+    },
+    "Phone Calls": {
+      "parameters": [
+        "Completeness of Entry",
+        "Matter Resolved",
+        "Matter Closed"
+      ],
+      "overall": {
+        "total_cases": 180,
+        "total_parameter_evaluations": 540,
+        "total_errors": 105,
+        "overall_error_rate": 0.1944
+      },
+      "by_analyst": [
+        {
+          "Analyst": "KA",
+          "Cases Reviewed": 36,
+          "Parameters Evaluated": 108,
+          "Errors": 26,
+          "Error Rate": 0.2407,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "MT",
+          "Cases Reviewed": 36,
+          "Parameters Evaluated": 108,
+          "Errors": 22,
+          "Error Rate": 0.2037,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "JH",
+          "Cases Reviewed": 36,
+          "Parameters Evaluated": 108,
+          "Errors": 20,
+          "Error Rate": 0.1852,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "LP",
+          "Cases Reviewed": 35,
+          "Parameters Evaluated": 105,
+          "Errors": 18,
+          "Error Rate": 0.1714,
+          "Sample Size OK": true
+        },
+        {
+          "Analyst": "BS",
+          "Cases Reviewed": 37,
+          "Parameters Evaluated": 111,
+          "Errors": 19,
+          "Error Rate": 0.1712,
+          "Sample Size OK": true
+        }
+      ],
+      "by_parameter": [
+        {
+          "Parameter": "Completeness of Entry",
+          "Evaluations": 180,
+          "Errors": 72,
+          "Error Rate": 0.4
+        },
+        {
+          "Parameter": "Matter Resolved",
+          "Evaluations": 180,
+          "Errors": 23,
+          "Error Rate": 0.1278
+        },
+        {
+          "Parameter": "Matter Closed",
+          "Evaluations": 180,
+          "Errors": 10,
+          "Error Rate": 0.0556
+        }
+      ],
+      "analyst_parameter_matrix": [
+        {
+          "Analyst": "BS",
+          "Completeness of Entry": 0.4324,
+          "Matter Resolved": 0.0541,
+          "Matter Closed": 0.027
+        },
+        {
+          "Analyst": "JH",
+          "Completeness of Entry": 0.3889,
+          "Matter Resolved": 0.0833,
+          "Matter Closed": 0.0833
+        },
+        {
+          "Analyst": "KA",
+          "Completeness of Entry": 0.5,
+          "Matter Resolved": 0.1389,
+          "Matter Closed": 0.0833
+        },
+        {
+          "Analyst": "LP",
+          "Completeness of Entry": 0.3143,
+          "Matter Resolved": 0.1429,
+          "Matter Closed": 0.0571
+        },
+        {
+          "Analyst": "MT",
+          "Completeness of Entry": 0.3611,
+          "Matter Resolved": 0.2222,
+          "Matter Closed": 0.0278
+        }
+      ],
+      "reviewer_coverage": [
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "BS",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "JH",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "KA",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "LP",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "BN",
+          "Analyst": "MT",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "BS",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "JH",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "KA",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "LP",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "CV",
+          "Analyst": "MT",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "BS",
+          "Reviews": 10
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "JH",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "KA",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "MT",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "GD",
+          "Analyst": "LP",
+          "Reviews": 8
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "BS",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "JH",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "KA",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "LP",
+          "Reviews": 9
+        },
+        {
+          "1st Level Reviewer": "SD",
+          "Analyst": "MT",
+          "Reviews": 9
+        }
+      ]
+    }
+  }
+}
