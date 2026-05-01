@@ -18,7 +18,7 @@ I do supervisory reviews regularly, and the output feeds monthly and quarterly r
 - Produces two outputs: a markdown narrative for the monthly/quarterly report, and a multi-tab Excel summary
 - Applies statistical guardrails: flags small samples, refuses to rank analysts, avoids evaluative language
 
-## What the script does (substantive, not decorative)
+## What the script does 
 
 Reading the Excel file is roughly 15% of what `analyze_reviews.py` does. The rest is what makes the script load-bearing:
 
@@ -103,10 +103,7 @@ Expected: skill pushes back. "Worst" is ambiguous — across which work type? Me
 ## Limitations
 
 - Risk Level analysis is Alerts-only (only sheet declaring it in `extras`)
-- No comments column in this file structure, so no theme analysis
+- No comments column in this file structure, so no theme analysis (not added for testing)
 - Sample-size threshold (n=20) is a heuristic in `STATISTICAL_GUARDRAILS.md`
 - Schema must be explicitly declared per sheet; the skill doesn't auto-detect (deliberate trade-off — explicit means errors are clear)
 
-## Assignment context
-
-Built for BU330.760 Week 5 (Reusable AI Skills). The grading emphasis is on choosing a task where the script is genuinely load-bearing. Per-sheet schema interpretation, value normalization across singular/plural variants, cross-tabulated analytics across hundreds of rows, risk-level conditional aggregation, period-over-period joins, and multi-tab Excel generation with sanitized sheet names all qualify.
